@@ -1,0 +1,22 @@
+{
+    "dataset_summary": {
+        "total_records": 1303,
+        "mean_price_inr": 101131.8292402149,
+        "median_price_inr": 87930.0,
+        "min_price_inr": 15660.0,
+        "max_price_inr": 548910.0
+    },
+    "model_comparison": {
+        "Multiple Linear Regression": {
+            "R2_Score": 0.8301,
+            "MAE_INR": 20251.78,
+            "RMSE_INR": 33532.64
+        },
+        "Random Forest Regressor": {
+            "R2_Score": 0.8715,
+            "MAE_INR": 16877.42,
+            "RMSE_INR": 28476.55
+        }
+    },
+    "best_model": "Random Forest Regressor"
+}
